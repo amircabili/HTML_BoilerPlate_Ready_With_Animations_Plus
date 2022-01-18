@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 body {
-  background: transparent url("../img/landscapewLight.png") 0% 0% no-repeat padding-box;
+  background: #000000c2 url("../img/landscapewLight.png") 0% 0% no-repeat padding-box;
   background-size: cover;
   opacity: 0.9;
   background-attachment: fixed;
@@ -413,6 +413,7 @@ body {
   float: left;
   left: 10px;
   position: relative;
+  font-weight: 100;
 }
 .appWrapper main .controlPanelWrapper .boxWrapper .boxInner .buttonPlay {
   background: transparent radial-gradient(closest-side at 50% 50%, #D4A200B3 0%, #91650085 100%) 0% 0% no-repeat padding-box;
