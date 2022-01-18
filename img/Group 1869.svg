@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="143.341" height="143.341" viewBox="0 0 143.341 143.341">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.268" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a3a0ff"/>
+      <stop offset="1" stop-color="#4e4bb9"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1869" data-name="Group 1869" transform="translate(1.5 141.841) rotate(-90)">
+    <g id="Group_1872" data-name="Group 1872">
+      <g id="Group_1871" data-name="Group 1871" transform="translate(21.956 19.737)">
+        <g id="Group_1870" data-name="Group 1870" transform="translate(0 0)" style="mix-blend-mode: hard-light;isolation: isolate">
+          <path id="Path_14637" data-name="Path 14637" d="M99.3,51.052A51.046,51.046,0,0,0,48.245,0C20.046,0,4.1,21.578,0,37.112c.024-.025,0-.124,0,0L48.293,50.44h.081c1.6.064,31.5.9,50.906,1.433C99.3,51.6,99.3,51.326,99.3,51.052Z" fill="url(#linear-gradient)" style="mix-blend-mode: overlay;isolation: isolate"/>
+        </g>
+      </g>
+      <ellipse id="Ellipse_134" data-name="Ellipse 134" cx="70.17" cy="70.17" rx="70.17" ry="70.17" fill="none" stroke="#4c7ff0" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="0 12" opacity="0.35" style="mix-blend-mode: hard-light;isolation: isolate"/>
+      <ellipse id="Ellipse_135" data-name="Ellipse 135" cx="61.495" cy="61.495" rx="61.495" ry="61.495" transform="translate(8.676 8.676)" fill="none" stroke="#4c7ff0" stroke-width="0.438"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,773 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+body {
+  background: transparent url("../img/landscapewLight.png") 0% 0% no-repeat padding-box;
+  background-size: cover;
+  opacity: 0.9;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+
+.appWrapper.container-fluid {
+  max-width: 1450px;
+  position: relative;
+  margin: 0 auto;
+}
+.appWrapper header nav a.navbar-brand {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.9;
+  font-size: 34px;
+  font-weight: 400;
+  adding: 0 30px;
+}
+.appWrapper header nav a.navbar-brand span {
+  font-size: 62px;
+}
+.appWrapper header nav #navbarCollapse {
+  height: 64px;
+}
+@media (max-width: 1024px) {
+  .appWrapper header nav #navbarCollapse {
+    height: 100%;
+  }
+}
+.appWrapper header nav ul.navbar-nav {
+  position: relative;
+  text-align: right;
+  bottom: 0;
+  height: 5px;
+}
+@media (max-width: 1024px) {
+  .appWrapper header nav ul.navbar-nav {
+    height: 100%;
+  }
+}
+.appWrapper header nav ul.navbar-nav li {
+  height: 35px;
+  float: left;
+  margin: 0 auto;
+  width: auto;
+}
+@media (max-width: 1024px) {
+  .appWrapper header nav ul.navbar-nav li {
+    height: 60px;
+  }
+}
+.appWrapper header nav ul.navbar-nav li a {
+  font-size: 21px;
+  color: lightgray;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .appWrapper header nav ul.navbar-nav li a {
+    font-size: 1.9rem;
+  }
+}
+.appWrapper header nav ul.navbar-nav li a.avatar {
+  height: 91px;
+  bottom: 20px;
+}
+.appWrapper header nav ul.navbar-nav li a svg {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: -4px;
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .appWrapper header nav ul.navbar-nav li a svg {
+    display: none;
+  }
+}
+.appWrapper header nav ul.navbar-nav li a svg rect {
+  stroke-width: 5;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  transition: all 0.35s linear;
+}
+.appWrapper header nav ul.navbar-nav li a:hover rect {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+  transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+@keyframes hoverLink {
+  0% {
+    box-shadow: 0px 0px 4px #fffffff7;
+    border: 2px dashed #FFFFFF;
+    border-radius: 3px;
+  }
+  50% {
+    box-shadow: 0px 0px 4px #fffffff7;
+    border: 2px dashed #FFFFFF;
+    border-radius: 3px;
+    color: #fff;
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0px 0px 4px #fffffff7;
+    border: 2px dashed #FFFFFF;
+    border-radius: 3px;
+    color: #fff;
+    opacity: 1;
+  }
+}
+.appWrapper header nav ul.navbar-nav li a.nav-link.active {
+  color: #F9B46F;
+}
+.appWrapper header nav ul.navbar-nav li a .avatarWrapper {
+  width: 116px;
+  height: 95px;
+  background-size: cover;
+  opacity: 1;
+  background: transparent url("../img/Group 6120@2x.png") 0% 70% no-repeat padding-box;
+  background-size: cover;
+}
+.appWrapper header nav ul.navbar-nav li a .avatarWrapper:hover {
+  transform: matrix(1, 0.09, -0.09, 1, 0, 0);
+}
+.appWrapper main .avatarBoxWrapper {
+  height: 747px;
+  background: #050c1429 url("../img/Group 6131.png") 70% 10% no-repeat padding-box;
+  box-shadow: 0px 0px 12px #02aba71a;
+  opacity: 1;
+  backdrop-filter: blur(15px);
+  background-size: contain;
+}
+.appWrapper main .avatarBoxWrapper .backGlowWrapper {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle, rgba(148, 255, 247, 0.63) -37%, rgba(75, 155, 155, 0) 94%);
+  background-position: 0px 0px;
+  background-size: 105% 100%;
+  background-repeat: no-repeat;
+}
+.appWrapper main .avatarBoxWrapper .carousel-item {
+  width: 100%;
+}
+.appWrapper main .avatarBoxWrapper .carousel-item img {
+  animation: pulse 1.6s ease;
+  width: 100%;
+  height: 610px;
+  padding-top: 20%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+@keyframes pulse {
+  0% {
+    opacity: 0;
+    width: 100%;
+    height: 610px;
+    padding-top: 20%;
+  }
+  10% {
+    opacity: 0;
+    width: 100%;
+    height: 630px;
+    padding-top: 20%;
+  }
+  20% {
+    opacity: 0;
+    width: 100%;
+    height: 690px;
+    padding-top: 20%;
+  }
+  30% {
+    width: 100%;
+    height: 710px;
+    padding-top: 20%;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+    height: 610px;
+    padding-top: 20%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+}
+.appWrapper main .controlPanelWrapper .boxWrapper {
+  background: #050c1429;
+  box-shadow: 0px 0px 12px #02aba71a;
+  opacity: 1;
+  backdrop-filter: blur(15px);
+  background-size: contain;
+  min-width: 100%;
+  min-height: 100%;
+  height: 365px;
+}
+@media (max-width: 1024px) {
+  .appWrapper main .controlPanelWrapper .boxWrapper {
+    height: auto;
+  }
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxHeader {
+  padding: 15px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxHeader.page2 {
+  padding-top: 45px;
+}
+@media (max-width: 1024px) {
+  .appWrapper main .controlPanelWrapper .boxWrapper .boxHeader.page2 {
+    padding-top: initial;
+  }
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxHeader.page2 .bigHeader {
+  font-size: 34px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxHeader span {
+  font-size: 26px;
+  position: relative;
+  left: 20px;
+}
+@media (max-width: 1024px) {
+  .appWrapper main .controlPanelWrapper .boxWrapper .boxHeader span {
+    left: 0px;
+  }
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxHeader span.text {
+  font-size: 22px;
+  position: relative;
+  font-weight: 100;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner {
+  padding: 0px 25px 15px 30px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner button {
+  float: right;
+  display: block;
+  border: solid 1px #fdc100;
+  border-radius: 20px;
+  background: transparent;
+  height: 35px;
+  width: 166px;
+  color: #fff;
+  position: relative;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner button span {
+  color: #fff;
+  z-index: 999;
+  position: relative;
+  bottom: 2px;
+}
+@media (max-width: 768px) {
+  .appWrapper main .controlPanelWrapper .boxWrapper .boxInner button {
+    width: 100%;
+    font-size: 26px;
+    height: 50px;
+  }
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner button .roundButton {
+  float: right;
+  display: block;
+  border: solid 1px #fdc100;
+  border-radius: 20px;
+  right: 0;
+  position: absolute;
+  height: 33px;
+  width: 166px;
+  background: #fdc100;
+  background: linear-gradient(97deg, #fdc100 7%, #dd7d00 49%);
+  border: solid 0px #fdc100;
+  top: 0px;
+}
+@media (max-width: 768px) {
+  .appWrapper main .controlPanelWrapper .boxWrapper .boxInner button .roundButton {
+    width: 100%;
+    font-size: 26px;
+    height: 50px;
+    background: #fdc100;
+    background: linear-gradient(97deg, #fdc100 7%, #dd7d00 49%);
+  }
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner button .roundButton .arrow {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  top: 14px;
+  font-weight: 100;
+  opacity: 0.7;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner button .roundButton .arrow.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+@media (max-width: 768px) {
+  .appWrapper main .controlPanelWrapper .boxWrapper .boxInner button .roundButton .arrow.right {
+    top: 20px;
+  }
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner button .roundButton .arrow.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner button .roundButton .arrow.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner button .roundButton .arrow.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner button:hover > .roundButton {
+  animation: buttonAnimate 0.432s ease forwards;
+}
+@media (max-width: 768px) {
+  .appWrapper main .controlPanelWrapper .boxWrapper .boxInner button:hover > .roundButton {
+    animation-play-state: paused;
+    background: #fdc100;
+    background: linear-gradient(97deg, #fdc100 7%, #dd7d00 49%);
+    display: none;
+  }
+}
+@keyframes buttonAnimate {
+  0% {
+    height: 35px;
+    width: 166px;
+  }
+  100% {
+    border-radius: 100px;
+    width: 38px;
+    height: 35px;
+    float: right;
+    animation-play-state: paused;
+    right: -2px;
+    top: -1px;
+  }
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner ul {
+  list-style-type: none;
+  text-align: left;
+  float: left;
+  position: relative;
+  padding: 0 10px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner ul li {
+  display: block;
+  text-align: left;
+  float: left;
+  width: 100%;
+  padding: 5px 0;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner ul li.games .marker {
+  width: 13px;
+  height: 5px;
+  float: left;
+  display: block;
+  top: 12px;
+  position: relative;
+  background: #6f79ff 14% 14% no-repeat padding-box;
+  /* border: 1px solid #FFFFFF; */
+  opacity: 1;
+  filter: blur(1px);
+  -webkit-box-shadow: -1px 2px 23px -3px #fff;
+  box-shadow: 0px 1px 5px 2px #4754ff;
+  border-radius: 30px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner ul li.games::marker {
+  display: none;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner ul li.completed .marker {
+  width: 13px;
+  height: 5px;
+  float: left;
+  display: block;
+  top: 12px;
+  position: relative;
+  background: #59eab9 14% 14% no-repeat padding-box;
+  /* border: 1px solid #FFFFFF; */
+  opacity: 1;
+  filter: blur(1px);
+  -webkit-box-shadow: -1px 2px 23px -3px #fff;
+  box-shadow: 0px 1px 5px 2px #59eab88a;
+  border-radius: 30px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner ul li.completed::marker {
+  display: none;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner ul li span {
+  font-size: 19px;
+  color: #fff;
+  white-space: nowrap;
+  float: left;
+  left: 10px;
+  position: relative;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .buttonPlay {
+  background: transparent radial-gradient(closest-side at 50% 50%, #D4A200B3 0%, #91650085 100%) 0% 0% no-repeat padding-box;
+  border: 2px solid #FFEE07;
+  border-radius: 22px;
+  width: 67px;
+  height: 67px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .buttonPlay .buttonPlayBack img {
+  top: 18px;
+  position: relative;
+  left: 2px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper {
+  margin: 0 auto;
+  height: 170px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.games {
+  width: 211px;
+  height: 250px;
+  background: transparent url("../img/Group 1773.svg") 0% -30px no-repeat padding-box;
+  opacity: 1;
+  background-size: contain;
+  margin: 0 auto;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.games span {
+  font-size: 39px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  top: 48px;
+  position: relative;
+  right: 10px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.courses {
+  width: 172px;
+  height: 233px;
+  background: transparent url("../img/Group 1823.svg") -13px -6px no-repeat padding-box;
+  opacity: 1;
+  background-size: contain;
+  margin: 0 auto;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.courses span {
+  font-size: 39px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  top: 48px;
+  position: relative;
+  right: 10px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.points {
+  height: 233px;
+  background: transparent url("../img/Group 2013.svg") 0px 5px no-repeat padding-box;
+  opacity: 1;
+  background-size: contain;
+  margin: 0 auto;
+  width: 172px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.points span {
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  top: 46px;
+  position: relative;
+  right: 21px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.pointsRed {
+  height: 233px;
+  background: transparent url("../img/Group 1868.svg") 0px 5px no-repeat padding-box;
+  opacity: 1;
+  background-size: contain;
+  margin: 0 auto;
+  width: 172px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.pointsRed span {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  top: 79px;
+  position: relative;
+  right: 1px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.pointsBlue {
+  height: 233px;
+  background: transparent url("../img/Group 1869.svg") 0px 5px no-repeat padding-box;
+  opacity: 1;
+  background-size: contain;
+  margin: 0 auto;
+  width: 172px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.pointsBlue span {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  top: 79px;
+  position: relative;
+  right: 1px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.blueVsRed {
+  height: 231px;
+  background: transparent url("../img/Group 1762.svg") -4px 9px no-repeat padding-box;
+  opacity: 1;
+  background-size: contain;
+  margin: 0 auto;
+  width: 327px;
+}
+@media (max-width: 768px) {
+  .appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.blueVsRed {
+    width: 272px;
+  }
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.blueVsRed span {
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+  top: 11px;
+  position: absolute;
+  right: 1px;
+  width: 100%;
+  left: -11px;
+  display: inline-block;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.blueVsRed ul.blueVsRedList {
+  list-style-type: none;
+  text-align: left;
+  float: initial;
+  position: relative;
+  padding: 0 0px;
+  top: 94px;
+  margin: 0 auto;
+  text-align: center;
+  right: 30px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.blueVsRed ul.blueVsRedList li {
+  display: table-cell;
+  text-align: left;
+  float: inherit;
+  width: 237px;
+  padding: 0px 30px;
+  margin: 0 0px;
+  position: relative;
+}
+@media (max-width: 1224px) {
+  .appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.blueVsRed ul.blueVsRedList li {
+    padding: 0px 20%;
+  }
+}
+.appWrapper main .controlPanelWrapper .boxWrapper .boxInner .precentWrapper .precentBox.blueVsRed ul.blueVsRedList li .marker {
+  float: left;
+  display: block;
+  position: relative;
+  background: #67e4e5 14% 14% no-repeat padding-box;
+  /* border: 1px solid #FFFFFF; */
+  opacity: 1;
+  filter: blur(0px);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 1px;
+  margin: 0 0px 0 0px;
+  width: 5px;
+}
+.appWrapper main .controlPanelWrapper .boxWrapper#box5 {
+  max-height: 308.5px;
+}
+@media (max-width: 1024px) {
+  .appWrapper main .controlPanelWrapper .boxWrapper#box5 {
+    max-height: 100%;
+  }
+}
+.appWrapper main #myCarousel button.carousel-control-prev {
+  width: 50%;
+}
+.appWrapper main #myCarousel button.carousel-control-next {
+  width: 50%;
+}
+.appWrapper main #myCarousel .carousel-indicators li {
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  display: inline-block;
+  height: auto;
+  margin: 0 !important;
+  width: auto;
+}
+.appWrapper main #myCarousel .carousel-indicators li img {
+  display: block;
+}
+.appWrapper main #myCarousel .carousel-indicators li .carousel-outer {
+  position: relative;
+}
+.appWrapper main #myCarousel .carousel-indicators button {
+  border-radius: 100px;
+  width: 7px;
+  border-top: none;
+  border-bottom: none;
+  height: 8px;
+  background: #868686 0% 0% no-repeat padding-box;
+  border: 1px solid #868686;
+  filter: blur(0px);
+  margin: 0 6px;
+}
+.appWrapper main #myCarousel .carousel-indicators button.active {
+  border-radius: 100px;
+  width: 7px;
+  border-top: none;
+  border-bottom: none;
+  height: 8px;
+  background: #0DB5B1 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  opacity: 1;
+  filter: blur(2px);
+}
+.appWrapper main #page1, .appWrapper main #page2 {
+  position: absolute;
+}
+.appWrapper main #page1.goIn .controlPanelWrapper, .appWrapper main #page2.goIn .controlPanelWrapper {
+  animation: goInAnimationBox 1.6s ease forwards;
+}
+@keyframes goInAnimationBox {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  40% {
+    opacity: 0;
+    left: 180px;
+    top: 200px;
+    width: 130%;
+    height: 130%;
+    display: none;
+    z-index: -1;
+  }
+  100% {
+    opacity: 1;
+    display: block;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 2;
+  }
+}
+.appWrapper main #page1.goIn .avatarBoxWrapper, .appWrapper main #page2.goIn .avatarBoxWrapper {
+  animation: goInAnimationAvatar 1.6s ease forwards;
+}
+@keyframes goInAnimationAvatar {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  40% {
+    opacity: 0;
+    position: relative;
+    right: 180px;
+    top: 200px;
+    width: 130%;
+    height: 130%;
+    display: none;
+    z-index: -1;
+  }
+  100% {
+    opacity: 1;
+    position: relative;
+    right: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+    display: block;
+  }
+}
+.appWrapper main #page1.goOut .controlPanelWrapper, .appWrapper main #page2.goOut .controlPanelWrapper {
+  animation: goOutAnimationBox 1.6s ease forwards;
+}
+@keyframes goOutAnimationBox {
+  0% {
+    opacity: 1;
+    position: relative;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+  }
+  100% {
+    opacity: 0;
+    position: relative;
+    right: 20px;
+    bottom: 180px;
+    width: 60%;
+    height: 60%;
+    display: none;
+    z-index: -1;
+    display: none !important;
+  }
+}
+.appWrapper main #page1.goOut .avatarBoxWrapper, .appWrapper main #page2.goOut .avatarBoxWrapper {
+  animation: goOutAnimationAvatar 1.6s ease forwards;
+}
+@keyframes goOutAnimationAvatar {
+  0% {
+    opacity: 1;
+    position: relative;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+    display: block;
+  }
+  100% {
+    opacity: 0;
+    position: relative;
+    right: 120px;
+    bottom: 180px;
+    width: 60%;
+    height: 60%;
+    display: none;
+    z-index: -1;
+    display: none;
+  }
+}
+.appWrapper main #page1.goOut, .appWrapper main #page2.goOut {
+  animation: animateDisplayNone 1.6s ease forwards;
+}
+@keyframes animateDisplayNone {
+  0% {
+    display: block;
+  }
+  100% {
+    display: none !important;
+  }
+}
+.appWrapper main #page1.goIn, .appWrapper main #page2.goIn {
+  animation: animateDisplayBlock 1.6s ease forwards;
+}
+@keyframes animateDisplayBlock {
+  0% {
+    display: none;
+  }
+  100% {
+    display: block !important;
+  }
+}
+.appWrapper .cursor-pointer {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
